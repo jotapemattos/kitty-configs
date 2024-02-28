@@ -1,0 +1,27 @@
+###################################
+########### FONTS #################
+###################################
+font_family Geist Mono 
+italic_font auto
+bold_font auto
+bold_italic_font auto
+font_size 12.0
+
+# BEGIN_KITTY_THEME
+# Rosé Pine Moon
+include current-theme.conf
+# END_KITTY_THEME
+
+# cursor
+cursor #f6f6f6
+cursor_shape underline
+
+# window
+remember_window_size  yes
+initial_window_width  640
+initial_window_height 400
+
+# background
+background_image ~/Documents/anime.png
+background_image_layout scaled
+
