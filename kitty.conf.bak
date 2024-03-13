@@ -8,9 +8,13 @@ bold_italic_font auto
 font_size 12.0
 
 # BEGIN_KITTY_THEME
-# Adapta Nokto Maia
+# Catppuccin-Mocha
 include current-theme.conf
 # END_KITTY_THEME
+
+remember_window_size  yes
+initial_window_width 540 
+initial_window_height 300 
 
 cursor_shape block
 shell_integration no-cursor
@@ -23,11 +27,10 @@ tab_separator " | "
 tab_powerline_style slanted
 tab_title_template "{fmt.fg.red}{bell_symbol}{activity_symbol}{fmt.fg.tab}{index}"
 
-# background
-background_image $HOME/.config/kitty/sad-girl-anime-girl.png
-background_blur 10
+background_image $HOME/.config/kitty/loupe-mono-dark.png
 background_image_layout cscaled
 background_opacity 0.8
+background_blur 10
 background_tint 0.94
 background_tint_gaps 10
 background_image_linear yes
